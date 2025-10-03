@@ -1,6 +1,6 @@
-import { createProduct, getAllProducts, getProductById, updateProduct, deleteProduct } from "../controllers/ProductController.js";
+import { createProduct, getAllProducts, getProductById, updateProduct, deleteProduct } from "../controllers/productController";
 import express from "express";
-import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware.js";
+import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware";
 
 const productRouter = express.Router();
 

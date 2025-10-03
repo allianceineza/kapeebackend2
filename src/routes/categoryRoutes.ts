@@ -1,6 +1,6 @@
 import { createCategory, getAllCategories, getCategoryById, updateCategory, deleteCategory } from "../controllers/CategoryController.js";
 import express from "express";
-import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware.js";
+import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware";
 
 const categoryRouter = express.Router();
 

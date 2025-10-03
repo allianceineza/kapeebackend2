@@ -1,11 +1,11 @@
 import express from 'express';
-import userRoutes from './userRoutes.js';
-import contactRouter from './contactRouter.js';
-import productRoutes from './productRoutes.js';
-import categoryRoutes from './categoryRoutes.js';
-import cartRoutes from './cartRoutes.js';
-import orderRoutes from './orderRoutes.js';
-import analyticsRoutes from './analyticsRoutes.js';
+import userRoutes from './userRoutes';
+import contactRouter from './contactRouter';
+import productRoutes from './productRoutes';
+import categoryRoutes from './categoryRoutes';
+import cartRoutes from './cartRoutes';
+import orderRoutes from './orderRoutes';
+import analyticsRoutes from './analyticsRoutes';
 
 const mainRouter = express.Router();
 

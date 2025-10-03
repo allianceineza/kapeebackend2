@@ -1,6 +1,6 @@
-import { submitContact, getAllContacts } from "../controllers/ContactController.js";
+import { submitContact, getAllContacts } from "../controllers/ContactController";
 import express from "express";
-import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware.js";
+import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware";
 
 const contactRouter = express.Router();
 

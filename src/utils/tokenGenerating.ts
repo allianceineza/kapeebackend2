@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { IUser } from "../models/userModel.js";
+import { IUser } from "../models/userModel";
 
 const generateAccessToken = (user: IUser): string => {
     const payload = {

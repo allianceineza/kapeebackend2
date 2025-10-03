@@ -10,9 +10,9 @@
  */
 
 
-import { Login, Register, getAllUsers, getUserById, deleteUser, bulkDeleteUsers, updateUserRole, getUserStats } from "../controllers/UserController.js";
+import { Login, Register, getAllUsers, getUserById, deleteUser, bulkDeleteUsers, updateUserRole, getUserStats } from "../controllers/UserController";
 import express from "express";
-import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware.js";
+import { authMiddleware, adminMiddleware } from "../middleware/authMiddleware";
 
 const userRouter = express.Router();
 
